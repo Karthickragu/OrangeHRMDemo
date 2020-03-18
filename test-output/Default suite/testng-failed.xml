@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orange.test.Regression">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test_TC003"/>
+          <include name="test_TC002"/>
+          <include name="test_TC004"/>
+          <include name="test_TC006"/>
+          <include name="generateReports"/>
+          <include name="test_TC005"/>
+          <include name="startUp"/>
+          <include name="passDriver"/>
+          <include name="initiate"/>
+          <include name="test_TC001"/>
+          <include name="terminate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orange.test.Regression -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
